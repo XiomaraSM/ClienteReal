@@ -1,0 +1,90 @@
+@media only screen and (min-width: 320px) and (max-width: 636px) {
+  .containerNav {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .logo {
+    height: 30px;
+    width: 30px;
+  }
+  .title1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: black;
+  }
+  .nav_menu {
+    list-style: none;
+    position: absolute;
+    top: -700px;
+    left: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .nav_menu.active {
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: black;
+  }
+  a {
+    color: black;
+    font-size: 2rem;
+    display: block;
+    font-family: "Poppins", sans-serif;
+  }
+
+}
+
+@media only screen and (min-width: 637px) {
+  .containerNav {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 2fr 3fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  .title1{
+    font-family: 'Gidugu';font-style: normal;font-weight: 400;
+    font-size: 1rem;
+
+
+  }
+  a {
+    color: black;
+    display: inline;
+    position: initial;
+    margin: 0;
+    font-family: 'Gidugu';
+    font-style: normal;
+    font-size: 1rem;
+  }
+
+  .burguer_nav {
+    display: none;
+  }
+  .nav_menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+}
+
+

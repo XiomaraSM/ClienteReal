@@ -3,7 +3,7 @@ import "./bill.css"
 const Bill = () => {
   return (
     <div>
-      <section><h2>BILL</h2></section>      
+      <section><h2>Bill</h2></section>      
     </div>
   )
 }

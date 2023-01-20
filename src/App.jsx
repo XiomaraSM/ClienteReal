@@ -1,15 +1,23 @@
 import './App.css';
-import Header from './components/header/Header'
-import Footer from './components/footer/Footer'
+import Home from './pages/home/Home'
+import About from './pages/about/About'
+import Catalogue from './pages/catalogue/Catalogue'
+import Cart from './pages/cart/Cart'
+import Bill from './pages/bill/Bill'
+import Contact from './pages/contact/Contact'
+import Nav from './components/nav/Nav';
 
 function App () {
   return (
     <>
     <main>
-        <h1>hola</h1>
-        <Header/>
-        <Footer/>
-
+        <Nav/>
+        <Home/>
+        <About/>
+        <Catalogue/>
+        <Cart/>
+        <Bill/>
+        <Contact/>
       </main>   
     </>
   )
