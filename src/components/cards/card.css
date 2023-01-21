@@ -1,0 +1,33 @@
+.imgcard{
+  width: 100px;
+  height: 100px;
+}
+.product-card{
+  width: 150px;
+  height: 300px;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  border: 1px solid black;
+}
+
+
+.titlecard{ 
+  font-family: 'Gotu';
+  font-style: normal;
+  font-size: 20px;
+}
+
+.textcard,
+.buttoncard{
+  font-family: 'Gotu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.buttoncard{
+background-color: #F2E205;
+padding: 5px;
+border-color: transparent;
+}

@@ -1,0 +1,33 @@
+
+
+  .container{
+    width: 80%;
+    margin: 0 auto;
+    }
+
+  .imagestyle {
+    z-index: 1;
+    width: 300px;
+  }
+  .buttonPrevious {
+    background-image: url(../../assets/previous.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-color: transparent;
+    background-color: transparent;
+  }
+
+  .buttonNext {
+    background-image: url(../../assets/next.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  .empty{
+    width: 200px;
+    border-color: transparent;
+    background-color: transparent;
+  }

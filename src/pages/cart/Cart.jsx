@@ -1,9 +1,9 @@
-import "./cart.css"
+import React from 'react'
 
 const Cart = () => {
   return (
     <div>
-      <section><h2>Cart</h2></section>
+      
     </div>
   )
 }
